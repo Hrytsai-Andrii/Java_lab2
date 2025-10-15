@@ -16,6 +16,8 @@ public class Person {
     	if (this == obj) return true;
     	if (obj == null || getClass() != obj.getClass()) return false;
     	Person other = (Person) obj;
-        return surname.equals(other.surname) && name.equals(other.name) && age == other.age;    	
+        return surname.equals(other.surname) 
+        		&& name.equals(other.name) 
+        		&& age == other.age;    	
     }
 }

@@ -5,7 +5,7 @@ import com.google.gson.GsonBuilder;
 
 import junit.framework.TestCase;
 
-public class AppTest extends TestCase
+public class LabTest extends TestCase
 {
     public void testApp()
     {
